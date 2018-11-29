@@ -16,7 +16,7 @@ namespace Система_учета_пожарного_оборудования
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Nastroyiki());
         }
     }
 }

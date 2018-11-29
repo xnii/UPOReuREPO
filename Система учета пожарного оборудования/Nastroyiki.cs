@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Система_учета_пожарного_оборудования
 {
-    public partial class Form1 : Form
+    public partial class Nastroyiki : Form
     {
-        public Form1()
+        public Nastroyiki()
         {
             InitializeComponent();
         }
