@@ -11,6 +11,21 @@
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -51,6 +66,12 @@
     <Compile Include="Center.Designer.cs">
       <DependentUpon>Center.cs</DependentUpon>
     </Compile>
+    <Compile Include="HarOBE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HarOBE.Designer.cs">
+      <DependentUpon>HarOBE.cs</DependentUpon>
+    </Compile>
     <Compile Include="Nastroyiki.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,11 +102,23 @@
     <Compile Include="Regestration.Designer.cs">
       <DependentUpon>Regestration.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReglamentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReglamentForm.Designer.cs">
+      <DependentUpon>ReglamentForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SpsOTV.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="SpsOTV.Designer.cs">
       <DependentUpon>SpsOTV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TehqForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TehqForm.Designer.cs">
+      <DependentUpon>TehqForm.cs</DependentUpon>
     </Compile>
     <Compile Include="UPOReuV1DataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -115,6 +148,9 @@
     <EmbeddedResource Include="Center.resx">
       <DependentUpon>Center.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="HarOBE.resx">
+      <DependentUpon>HarOBE.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Nastroyiki.resx">
       <DependentUpon>Nastroyiki.cs</DependentUpon>
     </EmbeddedResource>
@@ -140,8 +176,14 @@
     <EmbeddedResource Include="Regestration.resx">
       <DependentUpon>Regestration.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ReglamentForm.resx">
+      <DependentUpon>ReglamentForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SpsOTV.resx">
       <DependentUpon>SpsOTV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TehqForm.resx">
+      <DependentUpon>TehqForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vhod.resx">
       <DependentUpon>Vhod.cs</DependentUpon>
@@ -178,6 +220,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\LogoUPOReunormal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

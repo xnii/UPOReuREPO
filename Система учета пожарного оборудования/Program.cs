@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
+using System.Threading.Tasks; 
 using System.Windows.Forms;
 
 namespace Система_учета_пожарного_оборудования
@@ -16,7 +16,7 @@ namespace Система_учета_пожарного_оборудования
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Nastroyiki());
+            Application.Run(new ReglamentForm());
         }
     }
 }
