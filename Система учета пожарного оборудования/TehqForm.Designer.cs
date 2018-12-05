@@ -61,9 +61,9 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.textBox2);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(46, -82);
+            this.panel1.Location = new System.Drawing.Point(39, -82);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(465, 588);
+            this.panel1.Size = new System.Drawing.Size(472, 588);
             this.panel1.TabIndex = 9;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -71,7 +71,7 @@
             // 
             this.textBox5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox5.Font = new System.Drawing.Font("Calibri Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(29, 102);
+            this.textBox5.Location = new System.Drawing.Point(33, 102);
             this.textBox5.Margin = new System.Windows.Forms.Padding(4);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
@@ -100,7 +100,7 @@
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
             this.textBox4.PasswordChar = '*';
-            this.textBox4.Size = new System.Drawing.Size(401, 47);
+            this.textBox4.Size = new System.Drawing.Size(408, 47);
             this.textBox4.TabIndex = 11;
             // 
             // label4
@@ -124,7 +124,7 @@
             this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(401, 47);
+            this.textBox3.Size = new System.Drawing.Size(408, 47);
             this.textBox3.TabIndex = 9;
             this.textBox3.Text = "Сергеевич";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -146,7 +146,7 @@
             // 
             this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox1.Font = new System.Drawing.Font("Calibri Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(30, 184);
+            this.textBox1.Location = new System.Drawing.Point(34, 184);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -176,7 +176,7 @@
             this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(401, 47);
+            this.textBox2.Size = new System.Drawing.Size(408, 47);
             this.textBox2.TabIndex = 6;
             this.textBox2.Text = "Александр";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;

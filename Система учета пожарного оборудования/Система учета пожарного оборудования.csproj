@@ -188,6 +188,9 @@
     <EmbeddedResource Include="Vhod.resx">
       <DependentUpon>Vhod.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Zastavka.resx">
+      <DependentUpon>Zastavka.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -232,6 +235,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Заставка.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
