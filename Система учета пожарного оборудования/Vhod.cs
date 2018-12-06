@@ -36,5 +36,10 @@ namespace Система_учета_пожарного_оборудования
         {
 
         }
+
+        private void statusStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }
